@@ -1,0 +1,1200 @@
+[32m[2021-11-16 10:06:34,891] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 10:06:35,034] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 10:06:35,159] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 10:06:35,288] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 10:06:35,405] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 10:06:35,548] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 10:06:35,674] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 10:06:35,798] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 10:06:35,925] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 10:06:36,081] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 10:06:36,208] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 10:06:36,336] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 10:06:36,459] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 10:06:36,598] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 10:06:36,719] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 10:06:36,847] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 10:06:36,966] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[31m[2021-11-16 10:06:37,151] [test_withdraw.py:44] [test_withdraw:test_withdraw] [ERROR]- 用例--【提取成功】---执行失败[0m
+[31m[2021-11-16 10:06:37,151] [test_withdraw.py:45] [test_withdraw:test_withdraw] [ERROR]- 0 != 1002[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_withdraw.py", line 41, in test_withdraw
+    self.assertEqual(expected['code'],res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+[32m[2021-11-16 10:06:37,293] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 10:06:37,445] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 10:06:37,572] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 10:06:37,708] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 10:06:37,830] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 10:06:37,953] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 10:06:38,066] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 10:06:38,192] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 11:49:41,493] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 11:49:41,649] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 11:49:41,785] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 11:49:41,905] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 11:49:42,028] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 11:49:43,643] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 11:49:43,780] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 11:49:43,905] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 11:49:44,043] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 11:49:44,166] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 11:49:44,298] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 11:49:44,448] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 11:49:44,570] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 11:49:44,724] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 11:49:44,848] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 11:49:44,994] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 11:49:45,122] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[31m[2021-11-16 11:49:45,315] [test_withdraw.py:44] [test_withdraw:test_withdraw] [ERROR]- 用例--【提取成功】---执行失败[0m
+[31m[2021-11-16 11:49:45,315] [test_withdraw.py:45] [test_withdraw:test_withdraw] [ERROR]- 0 != 1002[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_withdraw.py", line 41, in test_withdraw
+    self.assertEqual(expected['code'],res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+[32m[2021-11-16 11:49:45,471] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 11:49:45,606] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 11:49:45,747] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 11:49:45,870] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 11:49:45,990] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 11:49:46,132] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 11:49:46,271] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 11:49:46,402] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 11:52:52,963] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 11:52:53,121] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 11:52:53,259] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 11:52:53,383] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 11:52:53,504] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 11:52:55,093] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 11:52:55,223] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 11:52:55,339] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 11:52:55,464] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 11:52:55,595] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 11:52:55,789] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 11:52:55,920] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 11:52:56,042] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 11:52:56,177] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 11:52:56,301] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 11:52:56,422] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 11:52:56,543] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[31m[2021-11-16 11:52:56,747] [test_withdraw.py:44] [test_withdraw:test_withdraw] [ERROR]- 用例--【提取成功】---执行失败[0m
+[31m[2021-11-16 11:52:56,747] [test_withdraw.py:45] [test_withdraw:test_withdraw] [ERROR]- 0 != 1002[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_withdraw.py", line 41, in test_withdraw
+    self.assertEqual(expected['code'],res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+[32m[2021-11-16 11:52:56,883] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 11:52:57,000] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 11:52:57,132] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 11:52:57,258] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 11:52:57,378] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 11:52:57,500] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 11:52:57,628] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 11:52:57,750] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 11:54:02,119] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 11:54:02,264] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 11:54:02,409] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 11:54:02,570] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 11:54:02,693] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 11:54:04,258] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 11:54:04,389] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 11:54:04,515] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 11:54:04,637] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 11:54:04,756] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 11:54:04,886] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 11:54:05,022] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 11:54:05,148] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 11:54:05,281] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 11:54:05,398] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 11:54:05,539] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 11:54:05,654] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[31m[2021-11-16 11:54:05,846] [test_withdraw.py:44] [test_withdraw:test_withdraw] [ERROR]- 用例--【提取成功】---执行失败[0m
+[31m[2021-11-16 11:54:05,847] [test_withdraw.py:45] [test_withdraw:test_withdraw] [ERROR]- 0 != 1002[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_withdraw.py", line 41, in test_withdraw
+    self.assertEqual(expected['code'],res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+[32m[2021-11-16 11:54:05,997] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 11:54:06,117] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 11:54:06,241] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 11:54:06,372] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 11:54:06,521] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 11:54:06,656] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 11:54:06,776] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 11:54:06,905] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 11:54:38,354] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 11:54:38,505] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 11:54:38,643] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 11:54:38,780] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 11:54:39,012] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 11:54:40,685] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 11:54:40,822] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 11:54:40,946] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 11:54:41,068] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 11:54:41,190] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 11:54:41,327] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 11:54:41,475] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 11:54:41,656] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 11:54:41,781] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 11:54:41,916] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 11:54:42,036] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 11:54:42,167] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[31m[2021-11-16 11:54:42,363] [test_withdraw.py:44] [test_withdraw:test_withdraw] [ERROR]- 用例--【提取成功】---执行失败[0m
+[31m[2021-11-16 11:54:42,363] [test_withdraw.py:45] [test_withdraw:test_withdraw] [ERROR]- 0 != 1002[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_withdraw.py", line 41, in test_withdraw
+    self.assertEqual(expected['code'],res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+[32m[2021-11-16 11:54:42,509] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 11:54:42,647] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 11:54:42,870] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 11:54:43,037] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 11:54:43,165] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 11:54:43,304] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 11:54:43,443] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 11:54:43,568] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 11:59:20,510] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 11:59:20,658] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 11:59:20,814] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 11:59:21,031] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 11:59:21,148] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 11:59:22,909] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 11:59:23,042] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 11:59:23,173] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 11:59:23,294] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 11:59:23,424] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 11:59:23,554] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 11:59:23,716] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 11:59:23,837] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 11:59:23,954] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 11:59:24,074] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 11:59:24,195] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 11:59:24,323] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 11:59:24,535] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 11:59:24,693] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 11:59:24,832] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 11:59:24,971] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 11:59:25,180] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 11:59:25,303] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 11:59:25,565] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 11:59:25,701] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 11:59:25,833] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 12:00:24,279] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 12:00:24,431] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 12:00:24,574] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 12:00:24,693] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 12:00:24,817] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[31m[2021-11-16 12:00:25,559] [test_recharge.py:85] [test_recharge:test_recharge] [ERROR]- 用例--【充值成功1位小数】---执行失败[0m
+[31m[2021-11-16 12:00:25,559] [test_recharge.py:86] [test_recharge:test_recharge] [ERROR]- 1 != 0[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(excepeted['code'], res['code'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+[32m[2021-11-16 12:00:26,750] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 12:00:26,897] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 12:00:27,018] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 12:00:27,139] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 12:00:27,259] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 12:00:27,382] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 12:00:27,517] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 12:00:27,636] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 12:00:27,768] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 12:00:27,892] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 12:00:28,052] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 12:00:28,172] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 12:00:28,387] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 12:00:28,514] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 12:00:28,635] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 12:00:28,751] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 12:00:28,883] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 12:00:29,018] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 12:00:29,143] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 12:00:29,281] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 12:00:29,429] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 14:41:51,112] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 14:41:51,510] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 14:41:51,649] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 14:41:51,789] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 14:41:51,940] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 14:41:53,924] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 14:41:54,066] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 14:41:54,210] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 14:41:54,333] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 14:41:54,459] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 14:41:54,576] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 14:41:54,702] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 14:41:54,829] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 14:41:54,949] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 14:41:55,075] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 14:41:55,202] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 14:41:55,339] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 14:41:55,552] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 14:41:55,688] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 14:41:55,839] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 14:41:55,971] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 14:41:56,144] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 14:41:56,273] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 14:41:56,413] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 14:41:56,599] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 14:41:56,750] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 14:45:39,548] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 14:45:39,698] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 14:45:39,833] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 14:45:39,981] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 14:45:40,111] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 14:45:40,884] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 14:45:41,017] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 14:45:41,138] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 14:45:41,259] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 14:45:41,379] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 14:45:41,500] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 14:45:41,629] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 14:45:41,748] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 14:45:41,868] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 14:45:41,998] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 14:45:42,122] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 14:45:42,245] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 14:45:42,449] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 14:45:42,593] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 14:45:42,726] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 14:45:42,850] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 14:45:42,968] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 14:45:43,091] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 14:45:43,215] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 14:45:43,332] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 14:45:43,448] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 14:46:44,040] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 14:46:44,201] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 14:46:44,347] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 14:46:44,673] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 14:46:44,807] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 14:46:46,779] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 14:46:47,129] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 14:46:47,286] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 14:46:47,430] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 14:46:47,552] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 14:46:47,676] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 14:46:47,813] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 14:46:47,952] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 14:46:48,072] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 14:46:48,208] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 14:46:48,338] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 14:46:48,461] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 14:46:48,664] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 14:46:48,826] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 14:46:48,954] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 14:46:49,073] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 14:46:49,198] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 14:46:49,324] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 14:46:49,468] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 14:46:49,594] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 14:46:49,707] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 14:48:51,361] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 14:48:51,509] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 14:48:51,631] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 14:48:51,761] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 14:48:51,895] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 14:48:53,794] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 14:48:53,926] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 14:48:54,043] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 14:48:54,163] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 14:48:54,290] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 14:48:54,419] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 14:48:54,539] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 14:48:54,677] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 14:48:54,798] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 14:48:54,939] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 14:48:55,077] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 14:48:55,197] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 14:48:55,401] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 14:48:55,543] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 14:48:55,662] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 14:48:55,786] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 14:48:55,922] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 14:48:56,068] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 14:48:56,263] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 14:48:56,394] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 14:48:56,528] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 14:49:41,151] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 14:49:41,295] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 14:49:41,416] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 14:49:41,544] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 14:49:41,667] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 14:49:42,475] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 14:49:42,607] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 14:49:42,733] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 14:49:42,849] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 14:49:42,966] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 14:49:43,088] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 14:49:43,233] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 14:49:43,380] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 14:49:43,493] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 14:49:43,627] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 14:49:43,756] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 14:49:43,898] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 14:49:44,112] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 14:49:44,265] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 14:49:44,394] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 14:49:44,555] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 14:49:44,728] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 14:49:44,859] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 14:49:44,994] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 14:49:45,127] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 14:49:45,256] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:42:22,364] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:42:22,499] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:42:22,636] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:42:22,753] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:42:22,876] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:42:23,227] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[31m[2021-11-16 16:42:23,586] [test_recharge.py:89] [test_recharge:test_recharge] [ERROR]- 用例--【充值成功1位小数】---执行失败[0m
+[31m[2021-11-16 16:42:23,586] [test_recharge.py:90] [test_recharge:test_recharge] [ERROR]- Decimal('5000.10') != 5000.1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_recharge.py", line 83, in test_recharge
+    self.assertEqual(end_amounts - start_amounts, paramas['amount'])
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: Decimal('5000.10') != 5000.1
+[32m[2021-11-16 16:42:23,833] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 16:42:24,077] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:42:24,359] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:42:24,627] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 16:42:24,910] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 16:42:25,164] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 16:42:25,438] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:42:25,561] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:42:25,702] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:42:25,839] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:42:25,987] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:42:26,165] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:42:26,328] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:42:26,460] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:42:26,577] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:42:26,696] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:42:26,823] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:42:26,945] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:42:27,062] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:42:27,255] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:42:27,393] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:42:27,514] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:42:27,659] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:42:27,776] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:42:27,904] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:42:28,021] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:42:28,138] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:42:28,269] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:47:47,058] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:47:47,196] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:47:47,318] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:47:47,442] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:47:47,561] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:47:47,935] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 16:47:48,170] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 16:47:48,418] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 16:47:48,668] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:47:48,895] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:47:49,135] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 16:47:49,378] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 16:47:49,613] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 16:47:49,847] [test_recharge.py:95] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:47:49,980] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:47:50,096] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:47:50,221] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:47:50,351] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:47:50,510] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:47:50,631] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:47:50,761] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:47:50,890] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:47:51,022] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:47:51,136] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:47:51,253] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:47:51,371] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:47:51,573] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:47:51,698] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:47:51,823] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:47:51,955] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:47:52,074] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:47:52,197] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:47:52,312] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:47:52,429] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:47:52,539] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:55:27,960] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:55:28,104] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:55:28,227] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:55:28,342] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:55:28,456] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:55:28,712] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:55:28,849] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:55:28,974] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:55:29,104] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:55:29,252] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:55:29,612] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:55:29,745] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:55:29,861] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:55:29,986] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:55:30,108] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:55:30,246] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:55:30,601] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:55:30,824] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:55:30,970] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:55:31,109] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:55:31,249] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:55:31,383] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:55:31,622] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:55:31,741] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:55:31,865] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:55:32,014] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:56:32,570] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:56:32,720] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:56:33,865] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:56:33,980] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:56:34,094] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:56:34,678] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 16:56:34,955] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 16:56:35,209] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 16:56:35,544] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:56:39,259] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:56:39,524] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 16:56:39,781] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 16:56:40,052] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 16:56:40,314] [test_recharge.py:90] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:56:40,460] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:56:40,595] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:56:40,710] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:56:40,826] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:56:40,954] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:56:41,069] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:56:41,193] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:56:41,317] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:56:43,999] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:56:44,112] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:56:44,239] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:56:44,366] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:56:44,557] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:56:44,678] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:56:44,796] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:56:44,922] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:56:45,067] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:56:45,221] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:56:45,348] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:56:45,468] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:56:45,592] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:58:14,835] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:58:14,990] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:58:15,124] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:58:15,235] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:58:15,357] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:58:15,550] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:58:15,698] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:58:15,814] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:58:15,940] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:58:16,059] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:58:16,175] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:58:16,297] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:58:16,421] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:58:16,547] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:58:16,669] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:58:16,784] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:58:16,896] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:58:17,127] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:58:17,297] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:58:17,415] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:58:17,544] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:58:17,655] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:58:17,779] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:58:17,909] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:58:18,035] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:58:18,171] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 16:58:48,620] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 16:58:48,770] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 16:58:48,890] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 16:58:49,012] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 16:58:49,124] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 16:58:49,442] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 16:58:49,681] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 16:58:49,918] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 16:58:50,154] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:58:50,394] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:58:50,624] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 16:58:50,886] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 16:58:51,134] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 16:58:51,407] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:58:51,679] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 16:58:51,811] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 16:58:51,925] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 16:58:52,045] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 16:58:52,175] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 16:58:52,296] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 16:58:52,418] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 16:58:52,528] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 16:58:52,649] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 16:58:52,787] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 16:58:52,897] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 16:58:53,025] [test_register.py:47] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 16:58:53,212] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 16:58:53,326] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 16:58:53,441] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 16:58:53,560] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 16:58:53,688] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 16:58:53,814] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 16:58:53,941] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 16:58:54,074] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 16:58:54,198] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:12:57,093] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:12:57,244] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:12:57,364] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:12:57,482] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:12:57,595] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:12:57,939] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:12:58,215] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:12:58,465] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:12:58,702] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:12:58,943] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:12:59,199] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:12:59,441] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:12:59,702] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:12:59,942] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:13:01,164] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:13:01,295] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:13:01,413] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:13:01,544] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:13:01,695] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:13:01,828] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:13:01,960] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:13:02,074] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:13:02,194] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:14:24,890] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:14:25,059] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:14:25,184] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:14:25,294] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:14:25,417] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:14:25,739] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:14:26,011] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:14:26,260] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:14:26,520] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:14:26,777] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:14:27,022] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:14:27,290] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:14:27,565] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:14:27,811] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:14:28,826] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:14:28,942] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:14:29,072] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:14:29,194] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:14:29,327] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:14:29,452] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:14:29,568] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:14:29,701] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:14:29,817] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:16:10,753] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:16:10,889] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:16:11,016] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:16:11,133] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:16:11,261] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:16:11,581] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:16:11,835] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:16:12,083] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:16:12,358] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:16:12,595] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:16:12,851] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:16:13,104] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:16:13,361] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:16:13,600] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:16:14,613] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:16:14,783] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:16:14,918] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:16:15,035] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:16:15,169] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:16:15,309] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:16:15,431] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:16:15,554] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:16:15,670] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:17:14,827] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:17:14,962] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:17:15,099] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:17:15,219] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:17:15,338] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:17:15,676] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:17:15,970] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:17:16,270] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:17:16,528] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:17:16,796] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:17:17,063] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:17:17,329] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:17:17,598] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:17:17,925] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:17:18,926] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:17:19,060] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:17:19,179] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:17:19,300] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:17:19,442] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:17:19,570] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:17:19,691] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:17:19,823] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:17:19,947] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:17:50,751] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:17:50,889] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:17:51,006] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:17:51,129] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:17:51,243] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:17:51,542] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:17:51,800] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:17:52,050] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:17:52,282] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:17:52,520] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:17:52,754] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:17:52,989] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:17:53,227] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:17:53,463] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:17:54,450] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:17:54,580] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:17:54,708] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:17:54,831] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:17:54,967] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:17:55,090] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:17:55,205] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:17:55,331] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:17:55,447] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:18:38,595] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:18:38,733] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:18:38,867] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:18:39,000] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:18:39,124] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:18:39,479] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:18:39,728] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:18:39,971] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:18:40,224] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:18:40,603] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:18:40,851] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:18:41,094] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:18:41,332] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:18:41,595] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:18:41,733] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:18:41,877] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:18:42,001] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:18:42,125] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:18:42,269] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:18:42,388] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:18:42,520] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:18:42,650] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:18:42,766] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:18:42,892] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:18:43,025] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:18:43,173] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:18:43,373] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:18:43,497] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:18:43,620] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:18:43,735] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:18:43,849] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:18:43,979] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:18:44,204] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:18:44,344] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:18:44,478] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:19:53,780] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:19:53,911] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:19:54,029] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:19:54,154] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:19:54,294] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:19:54,428] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:19:54,563] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:19:54,691] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:19:54,813] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:19:54,934] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:19:55,063] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:19:55,186] [test_register.py:56] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:21:29,184] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:21:29,335] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:21:29,459] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:21:29,572] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:21:29,707] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:21:30,027] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:21:30,273] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:21:30,530] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:21:30,778] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:21:31,046] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:21:31,302] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:21:31,547] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:21:31,794] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:21:32,040] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:21:32,232] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:21:32,232] [test_register.py:56] [test_register:test_register] [ERROR]- ((0,),) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: ((0,),) != 1
+[31m[2021-11-16 17:21:32,460] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:21:32,460] [test_register.py:56] [test_register:test_register] [ERROR]- ((0,),) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: ((0,),) != 1
+[32m[2021-11-16 17:21:33,302] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:21:33,420] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:21:33,564] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:21:33,682] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:21:33,801] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:21:33,930] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:21:34,041] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:21:34,153] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:21:34,282] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[31m[2021-11-16 17:31:33,714] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:31:33,715] [test_register.py:56] [test_register:test_register] [ERROR]- (0,) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\pycharm\PyCharm 2021.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: (0,) != 1
+[31m[2021-11-16 17:31:34,765] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:31:34,765] [test_register.py:56] [test_register:test_register] [ERROR]- (0,) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\pycharm\PyCharm 2021.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: (0,) != 1
+[32m[2021-11-16 17:32:49,085] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:32:50,043] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:32:50,203] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:32:50,441] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:32:50,591] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:32:50,746] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:32:50,938] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:32:51,093] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:32:51,249] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:32:51,424] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:32:51,612] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:32:51,771] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:33:12,124] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:33:12,279] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:33:12,370] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:33:12,453] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:33:12,540] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:33:12,814] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:33:13,036] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:33:13,244] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:33:13,459] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:33:13,672] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:33:13,889] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:33:14,099] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:33:14,320] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:33:14,533] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:33:14,694] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:33:14,856] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:33:14,944] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:33:15,047] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:33:15,141] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:33:15,231] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:33:15,330] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:33:15,427] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:33:15,523] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:33:15,643] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:33:15,749] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:33:15,841] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:33:16,000] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:33:16,089] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:33:16,209] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:33:16,317] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:33:16,423] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:33:16,522] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:33:16,614] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:33:16,713] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:33:16,809] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:33:34,028] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:33:34,166] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:33:34,289] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:33:34,401] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:33:34,523] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:33:49,874] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:33:50,121] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:33:50,366] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:33:50,602] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:33:50,865] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:33:51,122] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:33:51,362] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:33:51,619] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:33:51,870] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:33:52,068] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:33:52,266] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:33:52,382] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:33:52,503] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:33:52,636] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:33:52,856] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:33:52,993] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:33:53,108] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:33:53,229] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:33:53,350] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:33:53,476] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:33:53,611] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:33:53,804] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:33:53,927] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:33:54,048] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:33:54,167] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:33:54,308] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:33:54,429] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:33:54,557] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:33:54,680] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:33:54,817] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:34:13,354] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:34:13,497] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:34:13,626] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:34:13,744] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:34:13,865] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:34:14,205] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:34:14,455] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:34:14,703] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:34:14,951] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:34:15,279] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:34:15,527] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:34:15,774] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:34:16,014] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:34:16,259] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:34:16,463] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:34:16,464] [test_register.py:56] [test_register:test_register] [ERROR]- (0,) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: (0,) != 1
+[31m[2021-11-16 17:34:16,674] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:34:16,674] [test_register.py:56] [test_register:test_register] [ERROR]- (0,) != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: (0,) != 1
+[32m[2021-11-16 17:34:17,558] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:34:17,701] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:34:17,841] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:34:17,983] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:34:18,125] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:34:18,369] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:34:18,484] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:34:18,611] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:34:18,726] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:34:52,317] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:34:52,459] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:34:52,587] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:34:52,707] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:34:52,836] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:34:53,157] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:34:53,413] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:34:53,662] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:34:53,911] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:34:54,166] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:34:54,412] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:34:54,658] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:34:54,929] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:34:55,188] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:34:55,427] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:34:55,427] [test_register.py:56] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[31m[2021-11-16 17:34:55,734] [test_register.py:55] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:34:55,734] [test_register.py:56] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 50, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[32m[2021-11-16 17:34:56,576] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:34:56,711] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:34:56,880] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:34:57,001] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:34:57,121] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:34:57,245] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:34:57,366] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:34:57,493] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:34:57,617] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:44:27,773] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:44:27,987] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:44:28,108] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:44:28,236] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:44:28,359] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:44:28,482] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:44:28,619] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:44:28,743] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:44:28,865] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:44:28,993] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:44:29,112] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:44:29,239] [test_register.py:60] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:45:13,362] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:45:13,498] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:45:13,626] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:45:13,737] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:45:13,853] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:45:14,167] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:45:14,428] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:45:14,674] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:45:14,912] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:45:15,141] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:45:15,393] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:45:15,645] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:45:15,900] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:45:16,135] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:45:16,331] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:45:16,331] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[31m[2021-11-16 17:45:16,545] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:45:16,545] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[32m[2021-11-16 17:45:16,667] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:45:16,784] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:45:16,925] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:45:17,048] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:45:17,189] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:45:17,306] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:45:17,438] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:45:17,563] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:45:17,689] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:45:17,800] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:45:18,004] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:45:18,126] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:45:18,250] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:45:18,381] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:45:18,511] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:45:18,639] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:45:18,757] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:45:18,874] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:45:18,992] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[31m[2021-11-16 17:45:45,189] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:45:45,190] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\pycharm\PyCharm 2021.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[31m[2021-11-16 17:45:46,136] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:45:46,136] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\pycharm\PyCharm 2021.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[32m[2021-11-16 17:46:04,214] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:46:04,346] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:46:04,476] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:46:04,596] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:46:04,703] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:46:05,028] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:46:05,264] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:46:05,496] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:46:05,735] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:46:05,971] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:46:06,224] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:46:06,497] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:46:06,897] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:46:07,133] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:46:07,330] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:46:07,331] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[31m[2021-11-16 17:46:07,657] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:46:07,657] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[32m[2021-11-16 17:46:08,553] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:46:08,682] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:46:08,814] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:46:08,985] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:46:09,166] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:46:09,304] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:46:09,425] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:46:09,542] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:46:09,672] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:46:38,742] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号密码正确】---执行成功[0m
+[32m[2021-11-16 17:46:38,895] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号正确密码错误】---执行成功[0m
+[32m[2021-11-16 17:46:39,020] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【账号错误密码正确】---执行成功[0m
+[32m[2021-11-16 17:46:39,127] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【手机号码为空】---执行成功[0m
+[32m[2021-11-16 17:46:39,238] [test_login.py:42] [test_login:test_login] [INFO]- 用例--【密码为空】---执行成功[0m
+[32m[2021-11-16 17:46:39,568] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功】---执行成功[0m
+[32m[2021-11-16 17:46:39,825] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值成功1位小数】---执行成功[0m
+[32m[2021-11-16 17:46:40,060] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【id错误】---执行成功[0m
+[32m[2021-11-16 17:46:40,294] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:46:40,524] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:46:40,759] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为负数】---执行成功[0m
+[32m[2021-11-16 17:46:40,992] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额为500001】---执行成功[0m
+[32m[2021-11-16 17:46:41,227] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额非数字】---执行成功[0m
+[32m[2021-11-16 17:46:41,470] [test_recharge.py:91] [test_recharge:test_recharge] [INFO]- 用例--【充值金额小数点后三位】---执行成功[0m
+[31m[2021-11-16 17:46:41,673] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【注册成功-带注册名】---执行失败[0m
+[31m[2021-11-16 17:46:41,673] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[31m[2021-11-16 17:46:41,869] [test_register.py:57] [test_register:test_register] [ERROR]- 用例--【成功-不带用户名】---执行失败[0m
+[31m[2021-11-16 17:46:41,869] [test_register.py:58] [test_register:test_register] [ERROR]- 0 != 1[0m
+Traceback (most recent call last):
+  File "F:\pythonlearn\pythonProject\testcases\test_register.py", line 52, in test_register
+    self.assertEqual(sqlr, 1)
+  File "F:\Python\lib\unittest\case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "F:\Python\lib\unittest\case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+[32m[2021-11-16 17:46:41,996] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:46:42,114] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:46:42,276] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:46:42,395] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:46:42,512] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:46:42,633] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:46:42,753] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:46:42,866] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:46:42,993] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:46:43,122] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:46:43,299] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【提取成功】---执行成功[0m
+[32m[2021-11-16 17:46:43,444] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不存在的会员id】---执行成功[0m
+[32m[2021-11-16 17:46:43,605] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入id】---执行成功[0m
+[32m[2021-11-16 17:46:43,739] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【不输入金额】---执行成功[0m
+[32m[2021-11-16 17:46:43,861] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为负数】---执行成功[0m
+[32m[2021-11-16 17:46:43,980] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额为500001】---执行成功[0m
+[32m[2021-11-16 17:46:44,101] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额非数字】---执行成功[0m
+[32m[2021-11-16 17:46:44,457] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【取现金额小数点后三位】---执行成功[0m
+[32m[2021-11-16 17:46:44,686] [test_withdraw.py:50] [test_withdraw:test_withdraw] [INFO]- 用例--【余额不足】---执行成功[0m
+[32m[2021-11-16 17:48:06,066] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:48:06,327] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:48:06,459] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:48:06,597] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:48:06,735] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:48:06,859] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:48:07,003] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:48:07,130] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:48:07,253] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:48:07,395] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:48:07,566] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:48:07,700] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:49:13,405] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:49:13,624] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:49:13,767] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:49:13,888] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:49:14,013] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:49:14,138] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:49:14,276] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:49:14,398] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:49:14,524] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:49:14,655] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:49:14,807] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:49:15,003] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:49:47,726] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:49:47,921] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:50:21,408] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:50:21,619] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:50:21,758] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:50:21,895] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:50:22,020] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:50:22,146] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:50:22,277] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:50:22,398] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:50:22,518] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:50:22,634] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:50:22,753] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:50:22,904] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
+[32m[2021-11-16 17:50:59,092] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册成功-带注册名】---执行成功[0m
+[32m[2021-11-16 17:50:59,281] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【成功-不带用户名】---执行成功[0m
+[32m[2021-11-16 17:50:59,403] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入手机号】---执行成功[0m
+[32m[2021-11-16 17:50:59,566] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度10位】---执行成功[0m
+[32m[2021-11-16 17:50:59,703] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号长度12位】---执行成功[0m
+[32m[2021-11-16 17:50:59,824] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【手机号含有非法字符】---执行成功[0m
+[32m[2021-11-16 17:50:59,953] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【已注册过的手机号】---执行成功[0m
+[32m[2021-11-16 17:51:00,130] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码7位】---执行成功[0m
+[32m[2021-11-16 17:51:00,259] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【密码17位】---执行成功[0m
+[32m[2021-11-16 17:51:00,381] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【不输入密码】---执行成功[0m
+[32m[2021-11-16 17:51:00,511] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【注册名11位】---执行成功[0m
+[32m[2021-11-16 17:51:00,624] [test_register.py:62] [test_register:test_register] [INFO]- 用例--【类型输入非0，1内容】---执行成功[0m
