@@ -63,6 +63,32 @@ class Operation_mysql:
         self.connection.close()
 
 
+#     --------------------------------------------------柠檬班方法---------------------------------------------------------------
+    def find_all(self,sql):
+        self.cur.execute(sql)
+        res = self.cur.fetchall()
+        # self.cur.close()
+        return res
+
+    def find_one(self,sql):
+        # cur = self.connection.cursor()
+        # cur.execute(sql)
+        # res = cur.fetchone()
+        # cur.close()
+        # return res
+        with self.connection as cur:
+            res = cur.execute(sql)
+            resp =cur.fetchone()
+        cur.close()
+        return resp
+
+
+    def find_count(self,sql):
+        with self.connection as cur:
+            res = cur.execute(sql)
+        cur.close()
+        return res
+
 
 db1 = Operation_mysql(host=conf.get('mysql', 'host'),
                           port=conf.getint('mysql', 'port'),
@@ -71,29 +97,29 @@ db1 = Operation_mysql(host=conf.get('mysql', 'host'),
                           )
 
 
-if __name__ == '__main__':
-    # sql = "SELECT * FROM futureloan.member WHERE mobile_phone ='13388285002';"
-    sql = "SELECT leave_amount FROM futureloan.member WHERE mobile_phone ='13388285002';"
-#
-# host = conf.get('mysql', 'host'),
-# port = conf.getint('mysql', 'port'),
-# user = conf.get('mysql', 'user'),
-# password = conf.get('mysql', 'password'),
-# charset = "utf8"
-    db1 = Operation_mysql(host=conf.get('mysql', 'host'),
-                        port=conf.getint('mysql', 'port'),
-                        user=conf.get('mysql', 'user'),
-                        password=conf.get('mysql', 'password')
-                       )
-    db1.execute_sql(sql)
-    c = db1.get_data()
-    d = c[0]
-    e =d[0]
-    print(c)
-    print(d)
-    print(e,type(e))
-    # s.close_mysql()
-    del db1
+# if __name__ == '__main__':
+#     # sql = "SELECT * FROM futureloan.member WHERE mobile_phone ='13388285002';"
+#     sql = "SELECT leave_amount FROM futureloan.member WHERE mobile_phone ='13388285002';"
+# #
+# # host = conf.get('mysql', 'host'),
+# # port = conf.getint('mysql', 'port'),
+# # user = conf.get('mysql', 'user'),
+# # password = conf.get('mysql', 'password'),
+# # charset = "utf8"
+#     db1 = Operation_mysql(host=conf.get('mysql', 'host'),
+#                         port=conf.getint('mysql', 'port'),
+#                         user=conf.get('mysql', 'user'),
+#                         password=conf.get('mysql', 'password')
+#                        )
+#     db1.execute_sql(sql)
+#     c = db1.get_data()
+#     d = c[0]
+#     e =d[0]
+#     print(c)
+#     print(d)
+#     print(e,type(e))
+#     # s.close_mysql()
+#     del db1
 
 # # 3、执行sql
 # res = cur.execute(sql)

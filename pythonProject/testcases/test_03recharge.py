@@ -10,6 +10,8 @@ from common.handle_path import DATA_DIR
 from common.handle_conf import conf
 from common.handle_log import Logger, logge
 from common.handle_mysql import db1
+from common.hand_re import replace_data
+from testcases.fixture import Base_class
 
 '''
 用例级别的前置: setup
@@ -18,29 +20,31 @@ from common.handle_mysql import db1
 
 
 @ddt
-class Test_Recharge(unittest.TestCase):
+class Test_Recharge(unittest.TestCase,Base_class):
     excel = HandleExcel(os.path.join(DATA_DIR, 'apicase.xlsx'), 'recharge')
     cases = excel.read_data()
-    headers = eval(conf.get('head', 'head2'))
+    # headers = eval(conf.get('head', 'head3'))
     base_url = conf.get('env', 'base_url')
     db1 = db1
+
     @classmethod
     def setUpClass(cls) -> None:
-        """用例类的前置方法，等去提取token"""
-        url = conf.get('env', 'base_url') + '/member/login'
-        headers = cls.headers
-        paramas = {'mobile_phone': conf.get('test_data', 'mobile_phone'), 'pwd': conf.get('test_data', 'pwd')}
-        response = requests.post(url=url, headers=headers, json=paramas)
-        res = response.json()
-        # jsonpath取出来的值是一个列表，[0]索引取值
-        token = jsonpath(res, '$..token')[0]
-        # 方法一：更新字典
-        # cls.headers.update({'Authorization': 'Bearer {}'.format(token)})
-        # 方法二 与上面类似，有则更新，无则添加
-        cls.headers['Authorization'] = 'Bearer ' + token
-
-        # 从登录中获取充值接口的member_id,避免登录账号和充值接口member_id不一致
-        cls.member_id = jsonpath(res, '$..id')[0]
+        # """用例类的前置方法，等去提取token"""
+        # url = conf.get('env', 'base_url') + '/member/login'
+        # headers = cls.headers
+        # paramas = {'mobile_phone': conf.get('test_data', 'mobile_phone'), 'pwd': conf.get('test_data', 'pwd')}
+        # response = requests.post(url=url, headers=headers, json=paramas)
+        # res = response.json()
+        # # jsonpath取出来的值是一个列表，[0]索引取值
+        # token = jsonpath(res, '$..token')[0]
+        # # 方法一：更新字典
+        # # cls.headers.update({'Authorization': 'Bearer {}'.format(token)})
+        # # 方法二 与上面类似，有则更新，无则添加
+        # cls.headers['Authorization'] = 'Bearer ' + token
+        #
+        # # 从登录中获取充值接口的member_id,避免登录账号和充值接口member_id不一致
+        # cls.member_id = jsonpath(res, '$..id')[0]
+        cls.user_login()
 
     @list_data(cases)
     def test_recharge(self, item):
@@ -50,18 +54,22 @@ class Test_Recharge(unittest.TestCase):
         # *************************************************动态处理参数***************************************************
         # 动态处理需要进行替换的参数，使用字符串的replace方法
         if '#member_id#' in item['data']:
-            item['data'] = item['data'].replace('#member_id#', str(self.member_id))
+            # item['data'] = item['data'].replace('#member_id#', str(self.member_id))
+            item['data'] = replace_data(item['data'], Test_Recharge)
         # **************************************************************************************************************
         paramas = eval(item['data'])
+        if self.headers["X-Lemonban-Media-Type"] == "lemonban.v3":
+            paramas.update(self.par_sign)
+            print(paramas)
         # sql = item['check_sql'.format(conf.get('test_data', 'mobile_phone'))]
         sql = "SELECT leave_amount FROM futureloan.member WHERE mobile_phone ='{}'".format(
             conf.get('test_data', 'mobile_phone'))
-        print(sql)
-
         self.db1.execute_sql(sql)
         start_amounts = self.db1.get_data()[0][0]
         # print(start_amounts,type(start_amounts))
         print('查询前余额为：' + str(start_amounts))
+        # if self.headers["X-Lemonban-Media-Type"] == "lemonban.v3":
+        #     paramas.update()
 
         response = requests.request(method=method, url=url, headers=self.headers, json=paramas)
         res = response.json()

@@ -9,6 +9,7 @@ from common.handle_path import DATA_DIR
 from common.handle_conf import conf
 from common.handle_log import logge, Logger
 from common.handle_assert import Handle_Assert
+from common.hand_re import replace_data
 
 @ddt
 class Test_Login(unittest.TestCase):
@@ -22,6 +23,7 @@ class Test_Login(unittest.TestCase):
     def test_login(self, item):
         url = self.base_url + item['url']
         method = item['method'].lower()
+        item['data'] = replace_data(item['data'],Test_Login)
         paramas =eval(item['data'])
         response = requests.request(method=method, url=url, headers=self.headers,json=paramas)
         res = response.json()

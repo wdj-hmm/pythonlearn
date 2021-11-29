@@ -10,6 +10,7 @@ from common.handle_path import DATA_DIR
 from common.handle_conf import conf
 from common.handle_log import logge, Logger
 from common.handle_mysql import db1
+from common.hand_re import replace_data
 
 
 @ddt
@@ -18,14 +19,17 @@ class TestRegister(unittest.TestCase):
     cases = excel.read_data()
     base_url = conf.get('env', 'base_url')
     headers = eval(conf.get('head', 'head2'))
-    db1 = db1
+    db = db1
 
     @list_data(cases)
     def test_register(self, item):
         #     准备用例数据
         url = self.base_url + item['url']
         if '#mobile_phone#' in item['data']:
-            item['data'] = item['data'].replace('#mobile_phone#', self.randow_mobile())
+            # item['data'] = item['data'].replace('#mobile_phone#', self.randow_mobile())
+            # setattr动态设置类属性方法
+            setattr(TestRegister, 'mobile_phone', self.randow_mobile())
+            item['data'] = replace_data(item['data'], TestRegister)
         params = eval(item['data'])
         # 获取请求方法并转换为小写
         method = item['method'].lower()
@@ -35,12 +39,9 @@ class TestRegister(unittest.TestCase):
         response = requests.request(method=method, url=url, json=params, headers=self.headers)
         res = response.json()
 
-        if res['msg'] == 'OK':
-            sql = "SELECT COUNT(*) FROM futureloan.member WHERE mobile_phone = '{}'".format(item['data'][0])
-            self.db1.execute_sql(sql=sql)
-            sqlr = self.db1.get_data()[0][0]
-            print(sqlr)
-
+        if item['check_sql']:
+            sql = item['check_sql'].format(params.get('mobile_phone', ""))
+            count = self.db.find_count(sql)
 
         #     第三部:断言
         print("预期结果:", expected)
@@ -48,10 +49,9 @@ class TestRegister(unittest.TestCase):
         try:
             self.assertEqual(expected['code'], res['code'])
             self.assertEqual(expected['msg'], res['msg'])
-            # if res['msg'] == 'OK':
-            #     self.assertEqual(sqlr, 1)
-            # # else:
-            #     self.assertEqual(sqlr, 0)
+            if item['check_sql']:
+                print('数据库存在的数据条数为：', count)
+                self.assertEqual(1, count)
 
         except AssertionError as e:
             Logger.error("用例--【{}】---执行失败".format(item['title']))
