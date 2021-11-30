@@ -4,8 +4,8 @@ import logging
 import os
 import time
 import colorlog
-from common.handle_conf import conf
-from common.handle_path import LOG_DIR
+from pythonProject.common.handle_conf import conf
+from pythonProject.common.handle_path import LOG_DIR
 
 colorlog_config = {
     'DEBUG': 'cyan',

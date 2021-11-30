@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import pymysql
-from common.handle_conf import conf
+from pythonProject.common.handle_conf import conf
 
 
 class Operation_mysql:

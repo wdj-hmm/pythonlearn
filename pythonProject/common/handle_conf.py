@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from configparser import ConfigParser
 import os
-from common.handle_path import CONF_DIR
+from pythonProject.common.handle_path import CONF_DIR
 
 
 class Config(ConfigParser):
