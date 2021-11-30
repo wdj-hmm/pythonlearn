@@ -4,12 +4,12 @@ import unittest
 import os
 import requests
 from unittestreport import ddt, list_data
-from common.excel_fengzhuang import HandleExcel
-from common.handle_path import DATA_DIR
-from common.handle_conf import conf
-from common.handle_log import logge, Logger
-from common.handle_assert import Handle_Assert
-from common.hand_re import replace_data
+from pythonProject.common.excel_fengzhuang import HandleExcel
+from pythonProject.common.handle_path import DATA_DIR
+from pythonProject.common.handle_conf import conf
+from pythonProject.common.handle_log import logge, Logger
+from pythonProject.common.handle_assert import Handle_Assert
+from pythonProject.common.hand_re import replace_data
 
 @ddt
 class Test_Login(unittest.TestCase):

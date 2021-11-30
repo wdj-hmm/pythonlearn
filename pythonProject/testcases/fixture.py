@@ -4,8 +4,8 @@ import requests
 from time import time
 from jsonpath import jsonpath
 
-from common.handle_conf import conf
-from common.handle_sign import Handle_sign
+from pythonProject.common.handle_conf import conf
+from pythonProject.common.handle_sign import Handle_sign
 
 
 class Base_class:

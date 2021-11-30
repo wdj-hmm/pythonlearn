@@ -5,13 +5,13 @@ import os
 import requests
 from jsonpath import jsonpath
 from unittestreport import ddt, list_data
-from common.excel_fengzhuang import HandleExcel
-from common.handle_path import DATA_DIR
-from common.handle_conf import conf
-from common.handle_log import Logger, logge
-from common.handle_mysql import db1
-from common.hand_re import replace_data
-from testcases.fixture import Base_class
+from pythonProject.common.excel_fengzhuang import HandleExcel
+from pythonProject.common.handle_path import DATA_DIR
+from pythonProject.common.handle_conf import conf
+from pythonProject.common.handle_log import Logger, logge
+from pythonProject.common.handle_mysql import db1
+from pythonProject.common.hand_re import replace_data
+from pythonProject.testcases.fixture import Base_class
 
 '''
 用例级别的前置: setup

@@ -5,13 +5,13 @@ import os
 import requests
 from jsonpath import jsonpath
 from unittestreport import ddt, list_data
-from common.handle_excel import Handle_Excel
-from common.handle_path import DATA_DIR
-from common.handle_conf import conf
-from common.handle_log import Logger
-from common.hand_re import replace_data
-from common.handle_mysql import db1
-from testcases.fixture import Base_class
+from pythonProject.common.handle_excel import Handle_Excel
+from pythonProject.common.handle_path import DATA_DIR
+from pythonProject.common.handle_conf import conf
+from pythonProject.common.handle_log import Logger
+from pythonProject.common.hand_re import replace_data
+from pythonProject.common.handle_mysql import db1
+from pythonProject.testcases.fixture import Base_class
 
 
 @ddt
